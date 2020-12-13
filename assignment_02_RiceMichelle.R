@@ -15,6 +15,7 @@ setwd("/users/mrice/dsc520_Rice/dsc520")
 
 ## Load the file `data/tidynomicon/person.csv` to `person_df1` using `read.csv`
 ## Examine the structure of `person_df1` using `str()`
+## NOTE *This now defaults to correct behavior but I changed to TRUE to match the expected output*
 person_df1 <- read.csv(file='data/tidynomicon/person.csv', stringsAsFactors = TRUE)
 str(person_df1)
 
